@@ -46,8 +46,8 @@ const InstallApp = () => {
                     <div className="dropdown dropdown-start">
                     <div tabIndex={0} role="button" className="btn m-1">Sort By Size ⬇️</div>
                    <ul tabIndex="-1" className="dropdown-content menu bg-base-100 rounded-box z-1 w-52 p-2 shadow-sm">
-                   <li onClick={()=>{handleSort("Size")}}><a>downloads +</a></li>
-                   <li onClick={()=>{handleSort("ratingAvg")}}><a> download -</a></li>
+                   <li onClick={()=>{handleSort("Size")}}><a>High-Low:</a></li>
+                   <li onClick={()=>{handleSort("ratingAvg")}}><a>Low-High:</a></li>
                </ul>
               </div>
                 </div>
