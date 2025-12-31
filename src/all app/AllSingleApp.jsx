@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { useLoaderData, useParams } from 'react-router';
 import { Bar, BarChart, CartesianGrid, Tooltip, XAxis, YAxis } from 'recharts';
 import {addstoreapp} from './AddtoLocal'
@@ -11,10 +11,12 @@ const AllSingleApp = () => {
     let appData = useLoaderData()
      const app = appData?.find(item => item.id === appId);
      let {image,title,companyName,reviews,ratingAvg,size,downloads,description}=app
+     const [installed, setInstalled] = useState(false);
 
      let handleApp =()=>{
       addstoreapp(id)
        toast.success("App install successfully!");
+       setInstalled(true);
      }
     return (
         <div>
@@ -39,7 +41,7 @@ const AllSingleApp = () => {
                </div>
             
                 <div className="card-actions justify-end">
-                  <button onClick={handleApp} className="btn btn-primary">Install {size}Mb</button>
+                  <button onClick={handleApp} disabled={installed} className="btn btn-primary">{installed ? "Installed" : `Install ${size}Mb`}</button>
                 </div>
               </div>
               </div>
