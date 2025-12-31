@@ -11,7 +11,7 @@ let getstoreapp =()=>{
 let addstoreapp =(id)=>{
    let addBook = getstoreapp()
    if(addBook.includes(id)){
-    alert("Alredy exist")
+    //alert("Alredy exist")
    }else{
     addBook.push(id)
     let data = JSON.stringify(addBook)
