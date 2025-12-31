@@ -1,0 +1,289 @@
+[{
+    "image": "https://i.ibb.co.com/LD4Wsppm/demo-app-1.webp",
+    "title": "ChatPro Messenger",
+    "companyName": "ProSoft Ltd",
+    "id": 1,
+    "description": "ChatPro Messenger is a highly secure, fast, and reliable messaging platform designed for individuals, small teams, and large organizations. It offers seamless text, voice, and video communication along with group chats, file sharing, and real-time collaboration features. The app supports end-to-end encryption to ensure privacy, provides customizable themes, message reactions, and notifications settings. Users can also schedule messages, create polls, and integrate with other productivity tools to enhance communication and teamwork across personal and professional settings.",
+    "size": 45,
+    "reviews": 12500,
+    "ratingAvg": 4.6,
+    "downloads": 1200000,
+    "ratings": [
+      { "name": "1 star", "count": 300 },
+      { "name": "2 star", "count": 450 },
+      { "name": "3 star", "count": 1200 },
+      { "name": "4 star", "count": 4200 },
+      { "name": "5 star", "count": 6350 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/B2c4YVkD/demo-app-2.webp",
+    "title": "FitLife Tracker",
+    "companyName": "HealthTech Inc",
+    "id": 2,
+    "description": "FitLife Tracker is a comprehensive health and fitness app that helps users track their daily physical activity, workouts, calorie intake, and sleep patterns. It provides personalized fitness plans, goal tracking, progress reports, and motivational reminders to encourage consistent healthy habits. The app also includes guided workout videos, nutrition advice, step counters, and integration with wearable devices. Users can monitor their performance over weeks and months, set challenges, and share achievements with friends to stay motivated and maintain a balanced lifestyle.",
+    "size": 60,
+    "reviews": 8900,
+    "ratingAvg": 4.4,
+    "downloads": 850000,
+    "ratings": [
+      { "name": "1 star", "count": 250 },
+      { "name": "2 star", "count": 400 },
+      { "name": "3 star", "count": 1500 },
+      { "name": "4 star", "count": 3000 },
+      { "name": "5 star", "count": 3750 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/QvVX8rjx/demo-app-3.webp",
+    "title": "FinTrack",
+    "companyName": "MoneyMind",
+    "id": 3,
+    "description": "FinTrack is a powerful personal finance management app that enables users to track income, monitor expenses, create budgets, and plan monthly financial goals. It provides detailed analytics, visual reports, and notifications for upcoming bills and transactions. Users can categorize expenses, analyze spending habits, and get insights to make smarter financial decisions. The app also supports multiple accounts, goal tracking for savings, and exportable financial summaries, making it ideal for individuals, freelancers, and families who want full control over their money.",
+    "size": 35,
+    "reviews": 6700,
+    "ratingAvg": 4.2,
+    "downloads": 640000,
+    "ratings": [
+      { "name": "1 star", "count": 300 },
+      { "name": "2 star", "count": 500 },
+      { "name": "3 star", "count": 1700 },
+      { "name": "4 star", "count": 2200 },
+      { "name": "5 star", "count": 2000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/LX47m9CM/demo-app-4.webp",
+    "title": "LearnIt",
+    "companyName": "EduWorld",
+    "id": 4,
+    "description": "LearnIt is a comprehensive online learning platform offering hundreds of interactive courses across technology, business, arts, and personal development. The app provides video lessons, quizzes, real-world projects, and progress tracking tools that help learners build and reinforce skills effectively. Users can earn certificates, follow learning paths, participate in community discussions, and get access to mentorship opportunities. LearnIt emphasizes hands-on experience and practical learning to prepare users for careers or personal growth, and regularly updates its content to keep up with industry trends and skill requirements.",
+    "size": 75,
+    "reviews": 15400,
+    "ratingAvg": 4.7,
+    "downloads": 2000000,
+    "ratings": [
+      { "name": "1 star", "count": 350 },
+      { "name": "2 star", "count": 500 },
+      { "name": "3 star", "count": 1800 },
+      { "name": "4 star", "count": 5200 },
+      { "name": "5 star", "count": 7550 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/LX47m9CM/demo-app-4.webp",
+    "title": "TravelGo",
+    "companyName": "GoTrips",
+    "id": 5,
+    "description": "TravelGo is an all-in-one travel planning app that helps users explore destinations, book hotels, flights, and tours, and organize trips effortlessly. It provides personalized recommendations, interactive maps, travel itineraries, and real-time booking updates. Users can discover local attractions, read travel guides, save favorite places, and collaborate with friends or family on trip planning. The app is designed to streamline travel arrangements, ensure seamless experiences, and inspire adventure while providing safety tips, budget tracking, and travel checklists.",
+    "size": 90,
+    "reviews": 9800,
+    "ratingAvg": 4.3,
+    "downloads": 1100000,
+    "ratings": [
+      { "name": "1 star", "count": 400 },
+      { "name": "2 star", "count": 600 },
+      { "name": "3 star", "count": 2000 },
+      { "name": "4 star", "count": 3500 },
+      { "name": "5 star", "count": 3300 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/QvVX8rjx/demo-app-3.webp",
+    "title": "TaskMaster",
+    "companyName": "Productive Apps",
+    "id": 6,
+    "description": "TaskMaster is a robust productivity and task management application designed to help users stay organized, prioritize work, set reminders, track progress, and increase overall efficiency. It offers task categorization, project timelines, daily planners, recurring tasks, and collaboration tools for teams. The app supports notifications, goal tracking, and performance analytics, allowing individuals and organizations to streamline workflows, boost productivity, and achieve deadlines consistently. TaskMaster is ideal for professionals, students, and anyone who wants a structured approach to task management.",
+    "size": 25,
+    "reviews": 7200,
+    "ratingAvg": 4.5,
+    "downloads": 900000,
+    "ratings": [
+      { "name": "1 star", "count": 200 },
+      { "name": "2 star", "count": 350 },
+      { "name": "3 star", "count": 1200 },
+      { "name": "4 star", "count": 2600 },
+      { "name": "5 star", "count": 2850 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/B2c4YVkD/demo-app-2.webp",
+    "title": "PhotoLab",
+    "companyName": "Creative Studio",
+    "id": 7,
+    "description": "PhotoLab is a powerful photo editing app that allows users to enhance images using professional filters, AI-based effects, and creative tools. The app supports collages, background removal, text overlays, and advanced color correction. Users can edit photos for social media, personal projects, or professional use. It also includes sharing options, real-time previews, and inspiration galleries. PhotoLab is perfect for beginners and advanced users who want to transform ordinary photos into creative masterpieces effortlessly.",
+    "size": 110,
+    "reviews": 20300,
+    "ratingAvg": 4.6,
+    "downloads": 3500000,
+    "ratings": [
+      { "name": "1 star", "count": 500 },
+      { "name": "2 star", "count": 800 },
+      { "name": "3 star", "count": 2500 },
+      { "name": "4 star", "count": 6500 },
+      { "name": "5 star", "count": 10000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/LD4Wsppm/demo-app-1.webp",
+    "title": "NewsNow",
+    "companyName": "Global Media",
+    "id": 8,
+    "description": "NewsNow provides instant access to breaking news, trending stories, and personalized updates from around the globe. It covers multiple categories including politics, sports, technology, entertainment, and world events. Users can customize news feeds, receive push notifications, save articles for offline reading, and share content on social media. The app emphasizes reliability, speed, and up-to-date coverage while offering rich media content such as videos, images, and live reports to keep readers fully informed and engaged throughout the day.",
+    "size": 40,
+    "reviews": 5600,
+    "ratingAvg": 4.1,
+    "downloads": 780000,
+    "ratings": [
+      { "name": "1 star", "count": 350 },
+      { "name": "2 star", "count": 550 },
+      { "name": "3 star", "count": 1600 },
+      { "name": "4 star", "count": 1900 },
+      { "name": "5 star", "count": 1200 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/LD4Wsppm/demo-app-1.webp",
+    "title": "ShopEase",
+    "companyName": "RetailX",
+    "id": 9,
+    "description": "ShopEase is an intuitive shopping app that allows users to browse thousands of products, compare prices, read reviews, and make purchases seamlessly. It supports personalized recommendations, secure payment options, order tracking, and wishlists. Users can get notifications for deals, flash sales, and seasonal promotions. The app is designed to enhance the online shopping experience with a fast, secure, and smooth interface that keeps shoppers engaged and informed.",
+    "size": 55,
+    "reviews": 8500,
+    "ratingAvg": 4.5,
+    "downloads": 950000,
+    "ratings": [
+      { "name": "1 star", "count": 200 },
+      { "name": "2 star", "count": 300 },
+      { "name": "3 star", "count": 1000 },
+      { "name": "4 star", "count": 3200 },
+      { "name": "5 star", "count": 2800 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/B2c4YVkD/demo-app-2.webp",
+    "title": "CookMaster",
+    "companyName": "Foodies Inc",
+    "id": 10,
+    "description": "CookMaster is a complete culinary app for food enthusiasts that provides step-by-step recipes, meal plans, ingredient lists, and cooking tips. Users can watch tutorial videos, save favorite recipes, create shopping lists, and explore cuisines from around the world. It also includes a social community where cooks can share photos, reviews, and suggestions. The app helps users improve cooking skills, experiment with new recipes, and manage weekly meal planning efficiently.",
+    "size": 70,
+    "reviews": 9400,
+    "ratingAvg": 4.6,
+    "downloads": 1120000,
+    "ratings": [
+      { "name": "1 star", "count": 250 },
+      { "name": "2 star", "count": 300 },
+      { "name": "3 star", "count": 1500 },
+      { "name": "4 star", "count": 3000 },
+      { "name": "5 star", "count": 3350 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/QvVX8rjx/demo-app-3.webp",
+    "title": "MindSpace",
+    "companyName": "WellBeing Apps",
+    "id": 11,
+    "description": "MindSpace is a mental health and meditation app designed to help users reduce stress, increase focus, and improve overall well-being. It offers guided meditations, mindfulness exercises, sleep aids, mood tracking, and breathing techniques. Users can set daily reminders, track progress, and participate in challenges to stay consistent. The app emphasizes emotional balance, relaxation, and mental clarity through structured programs and insights, helping users build healthier habits over time.",
+    "size": 65,
+    "reviews": 6200,
+    "ratingAvg": 4.7,
+    "downloads": 780000,
+    "ratings": [
+      { "name": "1 star", "count": 150 },
+      { "name": "2 star", "count": 250 },
+      { "name": "3 star", "count": 1000 },
+      { "name": "4 star", "count": 2500 },
+      { "name": "5 star", "count": 2300 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/LX47m9CM/demo-app-4.webp",
+    "title": "RideOn",
+    "companyName": "Urban Mobility",
+    "id": 12,
+    "description": "RideOn is a modern transportation app that allows users to book rides, track drivers in real-time, and pay securely through the app. It provides fare estimates, ride history, and driver ratings to ensure safe and reliable service. Users can choose car types, schedule rides in advance, and enjoy promotions or loyalty rewards. RideOn is designed to simplify urban travel, reduce wait times, and improve user convenience while maintaining high standards of safety and reliability.",
+    "size": 50,
+    "reviews": 7100,
+    "ratingAvg": 4.4,
+    "downloads": 820000,
+    "ratings": [
+      { "name": "1 star", "count": 180 },
+      { "name": "2 star", "count": 320 },
+      { "name": "3 star", "count": 1100 },
+      { "name": "4 star", "count": 2800 },
+      { "name": "5 star", "count": 2700 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/QvVX8rjx/demo-app-3.webp",
+    "title": "WeatherWise",
+    "companyName": "ClimateTech",
+    "id": 13,
+    "description": "WeatherWise provides accurate, real-time weather forecasts, severe weather alerts, and climate insights. Users can check hourly, daily, and weekly forecasts, view radar maps, track storms, and receive personalized notifications. The app also offers information about humidity, wind speed, UV index, and sunrise/sunset times. Designed for travelers, commuters, and outdoor enthusiasts, WeatherWise helps users plan activities and stay safe in changing weather conditions.",
+    "size": 30,
+    "reviews": 5400,
+    "ratingAvg": 4.3,
+    "downloads": 640000,
+    "ratings": [
+      { "name": "1 star", "count": 160 },
+      { "name": "2 star", "count": 280 },
+      { "name": "3 star", "count": 900 },
+      { "name": "4 star", "count": 2200 },
+      { "name": "5 star", "count": 1900 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/LX47m9CM/demo-app-4.webp",
+    "title": "LearnLang",
+    "companyName": "EduWorld",
+    "id": 14,
+    "description": "LearnLang is an advanced language learning app that helps users master new languages through interactive lessons, exercises, pronunciation guides, and conversation practice. It includes gamified learning paths, quizzes, and speaking challenges to maintain engagement. Users can track their progress, earn certificates, and practice with native speakers. LearnLang is perfect for students, travelers, and professionals aiming to enhance communication skills and achieve fluency efficiently.",
+    "size": 80,
+    "reviews": 6800,
+    "ratingAvg": 4.5,
+    "downloads": 890000,
+    "ratings": [
+      { "name": "1 star", "count": 200 },
+      { "name": "2 star", "count": 320 },
+      { "name": "3 star", "count": 1200 },
+      { "name": "4 star", "count": 2700 },
+      { "name": "5 star", "count": 2600 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/B2c4YVkD/demo-app-2.webp",
+    "title": "GameHub",
+    "companyName": "PlayWorld",
+    "id": 15,
+    "description": "GameHub is a one-stop platform for mobile gamers offering access to hundreds of games, leaderboards, achievements, and in-app purchases. Users can discover new games, join online communities, share gameplay videos, and track progress. The app features recommendations, trending games, and personalized content to keep players engaged. GameHub is ideal for casual and hardcore gamers looking for a centralized, social, and interactive gaming experience.",
+    "size": 120,
+    "reviews": 15400,
+    "ratingAvg": 4.6,
+    "downloads": 2300000,
+    "ratings": [
+      { "name": "1 star", "count": 400 },
+      { "name": "2 star", "count": 650 },
+      { "name": "3 star", "count": 3000 },
+      { "name": "4 star", "count": 6200 },
+      { "name": "5 star", "count": 7800 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/LD4Wsppm/demo-app-1.webp",
+    "title": "HealthTrack Pro",
+    "companyName": "WellBeing Apps",
+    "id": 16,
+    "description": "HealthTrack Pro is a comprehensive wellness app for tracking fitness, nutrition, mental health, and sleep patterns. It provides detailed analytics, personalized wellness plans, reminders, and motivational insights. Users can monitor calories, steps, workouts, water intake, and mindfulness activities all in one place. The app also features goal tracking, progress visualization, and social challenges to encourage users to maintain a healthy lifestyle consistently.",
+    "size": 95,
+    "reviews": 7600,
+    "ratingAvg": 4.5,
+    "downloads": 910000,
+    "ratings": [
+      { "name": "1 star", "count": 220 },
+      { "name": "2 star", "count": 300 },
+      { "name": "3 star", "count": 1200 },
+      { "name": "4 star", "count": 2700 },
+      { "name": "5 star", "count": 2880 }
+    ]
+  }
+]
