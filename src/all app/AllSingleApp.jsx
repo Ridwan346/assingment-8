@@ -2,6 +2,8 @@ import React from 'react';
 import { useLoaderData, useParams } from 'react-router';
 import { Bar, BarChart, CartesianGrid, Tooltip, XAxis, YAxis } from 'recharts';
 import {addstoreapp} from './AddtoLocal'
+import { toast, ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 const AllSingleApp = () => {
     let {id} =useParams()
@@ -12,9 +14,11 @@ const AllSingleApp = () => {
 
      let handleApp =()=>{
       addstoreapp(id)
+       toast.success("App install successfully!");
      }
     return (
         <div>
+          <ToastContainer></ToastContainer>
              <div className="card card-side bg-base-100 shadow-sm">
               <figure>
                 <img

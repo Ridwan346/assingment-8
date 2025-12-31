@@ -1,16 +1,26 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { useLoaderData, useParams } from 'react-router';
 import { Bar, BarChart, CartesianGrid, Tooltip, XAxis, YAxis } from 'recharts';
-
+import {addstoreapp} from './Stor'
+import { toast, ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 const SingelAppData = () => {
     let {id} =useParams()
     let appId = parseInt(id)
     let appData = useLoaderData()
      const app = appData?.find(item => item.id === appId);
-     let {image,title,companyName,reviews,ratingAvg,size,downloads,description}=app
+     let {image,title,companyName,reviews,ratingAvg,size,downloads,description,}=app
     console.log(appData,appId,app)
+    const [installed, setInstalled] = useState(false);
+    let handle =()=>{
+      addstoreapp(id),
+      toast.success("App install successfully!");
+      setInstalled(true);
+    }
+        
     return (
         <div>
+          <ToastContainer></ToastContainer>
             <div className="card card-side bg-base-100 shadow-sm">
   <figure>
     <img
@@ -31,7 +41,7 @@ const SingelAppData = () => {
    </div>
 
     <div className="card-actions justify-end">
-      <button className="btn btn-primary">Install {size}Mb</button>
+      <button onClick={handle}  disabled={installed} className="btn btn-primary"> {installed ? "Installed" : `Install ${size}Mb`}</button>
     </div>
   </div>
   </div>
