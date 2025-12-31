@@ -26,12 +26,12 @@ const InstallApp = () => {
   let handleSort = (type) => {
     setsort(type)
     if(type === 'Size'){
-     let cng = InstalledApps.sort((a,b)=>a.size -b.size)
+     let cng = InstalledApps.sort((a,b)=>a.downloads -b.downloads)
      setInstalledApps(cng)
 
     }
     if(type === 'ratingAvg'){
-     let cng = InstalledApps.sort((a,b)=>a.ratingAvg -b.ratingAvg)
+     let cng = InstalledApps.sort((a,b)=>b.downloads -a.downloads)
      setInstalledApps(cng)
 
     }
@@ -46,8 +46,8 @@ const InstallApp = () => {
                     <div className="dropdown dropdown-start">
                     <div tabIndex={0} role="button" className="btn m-1">Sort By Size ⬇️</div>
                    <ul tabIndex="-1" className="dropdown-content menu bg-base-100 rounded-box z-1 w-52 p-2 shadow-sm">
-                   <li onClick={()=>{handleSort("Size")}}><a>Size</a></li>
-                   <li onClick={()=>{handleSort("ratingAvg")}}><a>ratingAvg</a></li>
+                   <li onClick={()=>{handleSort("Size")}}><a>downloads +</a></li>
+                   <li onClick={()=>{handleSort("ratingAvg")}}><a> download -</a></li>
                </ul>
               </div>
                 </div>
