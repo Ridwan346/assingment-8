@@ -18,4 +18,9 @@ let addstoreapp =(id)=>{
     localStorage.setItem("readList", data )
    }
 }
-export {addstoreapp ,getstoreapp}
+let removestoreapp = (id) => {
+  let storeApp = getstoreapp();
+  let updated = storeApp.filter(appId => appId !== id.toString());
+  localStorage.setItem("readList", JSON.stringify(updated));
+};
+export {addstoreapp ,getstoreapp ,removestoreapp}

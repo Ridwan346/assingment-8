@@ -2,7 +2,6 @@ import React from 'react';
 import { useLoaderData, useParams } from 'react-router';
 import { Bar, BarChart, CartesianGrid, Tooltip, XAxis, YAxis } from 'recharts';
 
-
 const SingelAppData = () => {
     let {id} =useParams()
     let appId = parseInt(id)
