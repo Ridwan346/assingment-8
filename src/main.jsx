@@ -11,11 +11,13 @@ import SingelAppData from './nav and banner/SingelAppData.jsx';
 import Allapps from './all app/Allapps.jsx';
 import AllSingleApp from './all app/AllSingleApp.jsx';
 import InstallApp from './all app/InstallApp.jsx';
+import Error from './Error.jsx';
 
 const router = createBrowserRouter([
   {
     path: "/",
     Component:Home,
+    errorElement:<Error></Error>,
     children:[
       {
         index:true,
