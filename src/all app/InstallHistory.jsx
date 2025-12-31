@@ -1,0 +1,21 @@
+import React from 'react';
+
+const InstallHistory = ({app}) => {
+    let {image,title,ratingAvg,reviews,size} =app
+    return (
+        <div className='border m-3'>
+            <div className="card  w-auto  flex">
+    <div className="card-body">
+       <div className='flex gap-2 '> <img className='h-16 w-16'  src={image} alt="" />
+    <div><h2 className="card-title">{title}</h2>
+    <div className='flex gap-2'><p className='text-green-500'>{ratingAvg}</p><p>{reviews}</p> <p className='text-yellow-500'>{size}</p></div></div></div>
+    <div className="card-actions justify-end">
+      <button className="btn btn-primary bg-green-400">Uninstall</button>
+    </div>
+  </div>
+</div>
+        </div>
+    );
+};
+
+export default InstallHistory;

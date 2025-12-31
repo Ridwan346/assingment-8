@@ -30,8 +30,9 @@ const Nav = () => {
      <Link to={'/'}> <li><a>Home</a></li></Link>
       
         <Link to={'allApp'}> <li><a>Apps</a></li></Link>
+        
+        <Link to={'installed'}><li><a>Installation</a></li></Link>
       
-      <li><a>Installation</a></li>
     </ul>
   </div>
   <div className="navbar-end">

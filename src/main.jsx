@@ -10,6 +10,7 @@ import Baneer from './nav and banner/Baneer.jsx';
 import SingelAppData from './nav and banner/SingelAppData.jsx';
 import Allapps from './all app/Allapps.jsx';
 import AllSingleApp from './all app/AllSingleApp.jsx';
+import InstallApp from './all app/InstallApp.jsx';
 
 const router = createBrowserRouter([
   {
@@ -35,6 +36,11 @@ const router = createBrowserRouter([
       path:'sholo/:id',
       loader: () => fetch('/sholo.json'),
       Component:AllSingleApp
+     },
+     {
+      path:'installed',
+      loader: () => fetch('/sholo.json'),
+      Component:InstallApp
      }
      
     ]

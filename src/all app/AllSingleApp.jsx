@@ -1,6 +1,7 @@
 import React from 'react';
 import { useLoaderData, useParams } from 'react-router';
 import { Bar, BarChart, CartesianGrid, Tooltip, XAxis, YAxis } from 'recharts';
+import {addstoreapp} from './AddtoLocal'
 
 const AllSingleApp = () => {
     let {id} =useParams()
@@ -8,6 +9,10 @@ const AllSingleApp = () => {
     let appData = useLoaderData()
      const app = appData?.find(item => item.id === appId);
      let {image,title,companyName,reviews,ratingAvg,size,downloads,description}=app
+
+     let handleApp =()=>{
+      addstoreapp(id)
+     }
     return (
         <div>
              <div className="card card-side bg-base-100 shadow-sm">
@@ -30,7 +35,7 @@ const AllSingleApp = () => {
                </div>
             
                 <div className="card-actions justify-end">
-                  <button className="btn btn-primary">Install {size}Mb</button>
+                  <button onClick={handleApp} className="btn btn-primary">Install {size}Mb</button>
                 </div>
               </div>
               </div>
